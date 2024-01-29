@@ -4,7 +4,7 @@ export function homeTab() {
     headline.textContent = "Restaurant Gordon Ramsay"
 
     const image = document.createElement("img");
-    image.src = "../dist/pictures/restaurantgordonramsay.jpg";
+    image.src = "./pictures/restaurantgordonramsay.jpg";
     image.width = 600;
     image.height = 500;
 
